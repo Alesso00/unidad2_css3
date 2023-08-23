@@ -1,0 +1,44 @@
+/*Resetear estilos por defecto del navegador*/
+body, h1, h2, p, ul, li{
+
+margin: 0;
+padding: 0;
+}
+
+/* Estilols generales*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+header, nav, main, footer{
+
+    padding: 21px;
+    background-color: #fff;
+margin: 10px;
+border-radius: 5px;
+box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+header{
+    color: #007bff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer{
+
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
